@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+h1.header1 {
+	size: 10pt;
+	font: bold;
+	color: white;
+	
+}
+h2.header2 {
+	size 8pt;
+	font: bold;
+}
+
+label.loginlabel {
+	size: 3pt;
+	font: bold;
+	color: white;
+}
+div.headerBG {
+	background-color: #655746; 
+}
+
+span.signup{
+	
+}

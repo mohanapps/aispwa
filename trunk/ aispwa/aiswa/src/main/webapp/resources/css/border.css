@@ -1,0 +1,59 @@
+@CHARSET "ISO-8859-1";
+html body{
+	background-color: #F2EFF6;
+	margin:0; 
+padding:0; 
+height:100%;
+}
+
+ 
+
+#wrapper{
+	width: 75%; 
+	margin: 0 auto;
+	box-shadow: 10px 10px 10px #d9d6c4;
+	
+}
+
+div.header{
+	/*border:2px solid;*/
+	
+	box-shadow: 10px 10px 5px #888888;
+	background-color: #8B795E;
+}
+
+div.content{
+	box-shadow: 10px 10px 5px #888888;
+	background-color: white;
+	min-height: 100%;
+	
+	
+}
+td.split {
+	box-shadow: 1px 0px 0px #d9d6c4;
+	text-align: center;
+	/*background-image: url("/resources/icons/give-take-bronze.jpg");
+	background-position: center;
+	background-repeat: no-repeat;*/
+}
+
+td.shadow {
+	box-shadow: 0px 1px #d9d6c4;
+	font-size: 15pt;
+	font: bold;
+}
+
+td.shadow label {
+	font-size: 12pt;
+	font: bold;
+}
+
+div.footer{
+	background: #eceadf url("/resources/css/jquery/images/ui-bg_fine-grain_10_eceadf_60x60.png") 50% 50% repeat;
+	
+	
+}
+div.footer span {
+	text-align: center;
+	
+}
