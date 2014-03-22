@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://services.aispwa_ws.aiswa/" xmlns:tns="http://services.aispwa_ws.aiswa/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="registerMember" type="tns:registerMember"/>
+
+  <xs:element name="registerMemberResponse" type="tns:registerMemberResponse"/>
+
+  <xs:complexType name="registerMember">
+    <xs:sequence>
+      <xs:element name="arg0" type="tns:memberDetailsDTO" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="memberDetailsDTO">
+    <xs:sequence>
+      <xs:element name="acheivements" type="xs:string" minOccurs="0"/>
+      <xs:element name="addressLine1" type="xs:string" minOccurs="0"/>
+      <xs:element name="addressLine2" type="xs:string" minOccurs="0"/>
+      <xs:element name="addressLine3" type="xs:string" minOccurs="0"/>
+      <xs:element name="contactNo" type="xs:string" minOccurs="0"/>
+      <xs:element name="dateOfRegistration" type="tns:date" minOccurs="0"/>
+      <xs:element name="districtOrCity" type="xs:string" minOccurs="0"/>
+      <xs:element name="dob" type="tns:date" minOccurs="0"/>
+      <xs:element name="fatherName" type="xs:string" minOccurs="0"/>
+      <xs:element name="firstName" type="xs:string" minOccurs="0"/>
+      <xs:element name="lastName" type="xs:string" minOccurs="0"/>
+      <xs:element name="memberProfession" type="xs:string" minOccurs="0"/>
+      <xs:element name="pincode" type="xs:int" minOccurs="0"/>
+      <xs:element name="state" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="date">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="registerMemberResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+
